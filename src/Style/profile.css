@@ -1,0 +1,107 @@
+.main_content{
+         width: 100vw;
+         
+         
+}
+.user_card{
+        display: flex;
+        border: 3px solid black;
+        height: 90vh;
+        width: 80vw;
+        margin: auto;
+        margin-top: 70px;
+        overflow: hidden;
+}
+.left_div{
+              flex: 1.5;
+              margin-top:auto;
+              margin-bottom: 30px;
+              text-align: left;
+              padding-top: 20px;
+       
+}
+.right_div{
+              flex: 2.5;        
+}
+.user_card_left{
+              text-align: left;
+              margin-left: 50px;
+             
+}
+.para_conent{
+              font-size: 30px;
+              font-weight: bold;
+              color: #4CAF50;
+}
+
+.heading_conent{
+              font-size: 30px;
+              font-weight: 500;
+}
+.heading_profile{
+              font-size: 20px;
+              font-weight: 600;
+            
+}
+.heading_button{
+              width: 170px;
+              height: 40px;
+              text-align: center;
+              font-weight: bold;
+              background: #4CAF50;
+              color: white;
+              border: 3px solid #609B6C;
+              filter: drop-shadow(25px 15px 150px #4CAF50);
+              border-radius: 2px;
+              box-shadow: rgba(12, 235, 86, 0.829) 0px 13px 27px -5px, rgba(15, 231, 51, 0.795) 0px 8px 16px -8px;
+             margin-bottom: 40px;
+             margin-top: 20px;
+}
+
+.semicontainer{
+    background: #C5F8C7;
+    border-radius: 50%;
+    height: 40rem;
+    position: relative;
+    width: 45rem;
+    bottom: 281px;
+    right: -55px;        
+}
+.image_div{
+    width: 6rem;
+    height: 6rem;
+    border-radius: 50%;
+    object-fit: contain;
+    overflow: hidden;
+    position: absolute;
+}
+.image_container{
+    width: 75%;
+    height: 70%;
+    border: 5px dotted green;
+    border-radius: 50%;
+    position: relative;
+    top: 329px;
+    left: 58px;
+}
+
+.imgdiv1{
+    left: 225px;
+    top: -42px;
+}
+
+.imgdiv2{
+    top: 200px;
+    left: -36px;
+}
+
+.imgdiv3{
+    top: 200px;
+    right: -30px;
+}
+.imgdiv4{
+    top: 390px;
+    left: 225px;  
+}
+
+
